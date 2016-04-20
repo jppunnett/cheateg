@@ -8,5 +8,7 @@ CHEAT_TEST(test_factorial,
 		cheat_assert(factorial(-1) == 0);
 		cheat_assert(factorial(0) == 0);
 		cheat_assert(factorial(1) == 1);
+		cheat_assert(factorial(4) == 24);
+
 	  )
 

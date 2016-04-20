@@ -11,8 +11,10 @@ int factorial(int n)
 
 	int fac;
 	fac = 1;
-	while (n--)
+	while (n) {
 		fac *= n;
+		n--;
+	}
 	return fac;
 }
 
